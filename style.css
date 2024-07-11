@@ -24,7 +24,7 @@ div.box {
     height: 670px;
     position: absolute;
     top: 0;
-    
+
 }
 
 nav {
@@ -54,7 +54,7 @@ button.btn {
     border: 1px solid white;
     border-radius: 5px;
     cursor: pointer;
-    
+
 }
 
 select {
@@ -64,7 +64,7 @@ select {
     border: none;
 }
 
-button.btn-red{
+button.btn-red {
     padding: 6px 12px;
     background-color: rgb(213, 14, 24);
     color: white;
@@ -74,7 +74,7 @@ button.btn-red{
     border-radius: 5px;
 }
 
-div.note{
+div.note {
     padding: 0 30px;
     height: 570px;
     justify-content: center;
@@ -86,25 +86,28 @@ div.note{
     position: relative;
     gap: 23px;
     font-family: Arial, Helvetica, sans-serif
-    
 }
+
 .note> :nth-child(1) {
     font-size: 46px;
-    font-weight:800;
+    font-weight: 800;
 }
+
 .note> :nth-child(2) {
     font-size: 25px;
-    font-weight:100;
+    font-weight: 100;
 }
+
 .note> :nth-child(3) {
     font-size: 20px;
     font-weight: 100;
 }
-input.email{
+
+input.email {
     font-family: sans-serif;
     font-size: 15px;
     padding: 18px 150px 18px 10px;
-    background-color: black ;
+    background-color: black;
     color: white;
     font-weight: bolder;
     border: 1px solid white;
@@ -113,28 +116,32 @@ input.email{
     z-index: 10;
     position: relative;
 }
-button.btn-red-s{
+
+button.btn-red-s {
     font-family: sans-serif;
     font-size: 25px;
     color: white;
-    font-weight:600;
+    font-weight: 600;
     padding: 11px 30px 14px;
     background-color: rgb(213, 14, 24);
     border-radius: 5px;
     border: 1px solid rgb(213, 14, 24);
 }
-div.separation{
+
+div.separation {
     height: 8px;
-    background-color:  rgb(46, 44, 44);
+    background-color: rgb(46, 44, 44);
     position: relative;
     z-index: 20;
 }
-span.gap{
+
+span.gap {
     background-color: rgba(248, 243, 243, 0.021);
     width: 100px;
-    
+
 }
-div.web{
+
+div.web {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     display: flex;
@@ -145,17 +152,17 @@ div.web{
     right: 100px;
 }
 
-.web> :nth-child(1){
+.web> :nth-child(1) {
     font-size: 48px;
     font-weight: 750;
 }
 
-.web> :nth-child(2){
+.web> :nth-child(2) {
     font-size: 25px;
-    font-weight:lighter;
+    font-weight: lighter;
 }
 
-section.first{
+section.first {
     display: flex;
     justify-content: center;
     max-width: 90vw;
@@ -164,35 +171,37 @@ section.first{
     justify-content: center;
     align-items: center;
     padding: 50px 50px;
-    
-    
+
+
 }
 
-div.image{
+div.image {
     position: relative;
 }
 
-.image video{
-    width: 420px ;
+.image video {
+    width: 420px;
     position: relative;
     top: 90px;
     left: 78px;
 }
-    
-.image img{
+
+.image img {
     width: 580px;
     position: absolute;
     top: 0;
     left: 0px;
 }
-div.separation2{
+
+div.separation2 {
     height: 8px;
-    background-color:  rgb(46, 44, 44);
+    background-color: rgb(46, 44, 44);
     position: relative;
     top: 240px;
     z-index: 20;
 }
-section.second{
+
+section.second {
     display: flex;
     max-width: 100vw;
     margin: auto;
@@ -205,33 +214,34 @@ section.second{
 
 
 }
-div.image2{
+
+div.image2 {
     top: 200px;
     position: relative;
 }
 
-div.down{
+div.down {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 200px;
     right: 300px;
 }
 
-.down> :nth-child(1){
+.down> :nth-child(1) {
     font-size: 40px;
     font-weight: 780;
 
-}  
-
-.down> :nth-child(4){
-    font-size: 20px;
-    font-weight:lighter;
 }
 
-div.strange{
+.down> :nth-child(4) {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+div.strange {
     font-family: Arial, Helvetica, sans-serif;
     height: 100px;
-    width:160px;
+    width: 160px;
     align-items: center;
     border: 1px solid gray;
     position: relative;
@@ -244,23 +254,28 @@ div.strange{
     background-color: black;
     border-radius: 10px;
 }
-span.load{
+
+span.load {
     position: absolute;
     left: 270px;
     bottom: 30px;
 }
-span.text{
+
+span.text {
     position: absolute;
     bottom: 30px;
     left: 100px;
 }
-.text> :nth-child(2){
+
+.text> :nth-child(2) {
     color: rgb(0, 113, 235);
 }
-.text> :nth-child(1){
-    font-size:large;
+
+.text> :nth-child(1) {
+    font-size: large;
 }
-section.third{
+
+section.third {
     max-width: 75vw;
     margin: auto;
     color: white;
@@ -269,7 +284,8 @@ section.third{
     position: relative;
     top: 400px;
 }
-div.stream{
+
+div.stream {
     position: relative;
     top: 55px;
     font-family: Arial, Helvetica, sans-serif;
@@ -278,68 +294,171 @@ div.stream{
     flex-direction: column;
     gap: 21px;
 }
-.stream> :nth-child(1){
+
+.stream> :nth-child(1) {
     font-size: 48px;
     font-weight: bold;
 
 }
-.stream> :nth-child(2){
+
+.stream> :nth-child(2) {
     font-size: 24px;
     font-weight: 500;
 }
-video.movie{
+
+video.movie {
     height: 222px;
     position: relative;
     left: 670px;
     bottom: 400px;
 }
-img.mac{
+
+img.mac {
     position: relative;
     left: 150px;
     bottom: 200px;
 }
 
 
-div.separation3{
+div.separation3 {
     height: 8px;
-    background-color:  rgb(46, 44, 44);
+    background-color: rgb(46, 44, 44);
     position: relative;
     top: 250px;
     z-index: 20;
 }
 
-section.fourth{
+section.fourth {
     position: relative;
     max-width: 75vw;
     top: 235px;
     color: white;
     align-items: center;
     align-content: center;
-    
+
 }
 
-img.kid{
+img.kid {
     position: relative;
     top: 100px;
     left: 100px;
 }
 
-div.children{
+div.children {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     left: 350px;
-    bottom:200px;
+    bottom: 200px;
     gap: 21px;
- 
+
 }
-.children> :nth-child(1){
+
+.children> :nth-child(1) {
     font-size: 48px;
     font-weight: bold;
 }
-.children> :nth-child(2){
+
+.children> :nth-child(2) {
     font-size: 25px;
     font-weight: 500;
+}
+
+section.fifth {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 250px;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    max-width: 90vw;
+    color: white;
+}
+
+div.faq {
+    align-items: center;
+    align-content: center;
+    position: relative;
+    top: 70px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+span.ques {
+    cursor: pointer;
+    border: 4px solid black;
+    font-size: 25px;
+    top: 100px;
+    align-content: center;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    height: 85px;
+    width: 1160px;
+    position: relative;
+    
+}
+
+span.plus {
+    font-family: 'Times New Roman';
+    font-weight: 50;
+    font-size: 50px;
+    position: absolute;
+    left: 1100px;
+    bottom: 12px;
+}
+.ques:hover{
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+div.new{
+    align-content: center;
+    height: 570px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    top: 530px;
+    gap: 23px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.new> :nth-child(1){
+    font-size: 20px;
+}
+div.separation4{
+    height: 8px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    top: 570px;
+    z-index: 20;
+}
+section.last{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 572px;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    max-width: 90vw;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+span.call{
+    position: relative;
+    top: 60px;
+}
+span.ph{
+    cursor: pointer;
+    text-decoration: underline;
+}
+table.links{
+    position: relative;
+    top:100px;
+    border-spacing: 2px;
 }
