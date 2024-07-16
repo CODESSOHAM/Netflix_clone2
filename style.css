@@ -457,8 +457,3 @@ span.ph{
     cursor: pointer;
     text-decoration: underline;
 }
-table.links{
-    position: relative;
-    top:100px;
-    border-spacing: 2px;
-}
